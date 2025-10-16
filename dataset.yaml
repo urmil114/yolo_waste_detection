@@ -1,0 +1,6 @@
+train: waste_dataset/images/train
+val: waste_dataset/images/val
+test: waste_dataset/images/test
+
+nc: 3  # Number of classes
+names: ['hazardous', 'organic', 'recyclable']

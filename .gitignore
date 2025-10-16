@@ -1,0 +1,29 @@
+# Python cache / build
+__pycache__/
+*.py[cod]
+dist/
+build/
+*.spec
+
+# Model weights and checkpoints
+*.pt
+*.pth
+*.onnx
+*.tflite
+
+# Videos, datasets, and logs
+*.mp4
+*.avi
+*.mov
+*.csv
+*.log
+
+# Virtual environments
+venv/
+ENV/
+*.env
+*.egg-info/
+
+# System files
+.DS_Store
+Thumbs.db
